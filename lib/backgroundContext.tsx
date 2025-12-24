@@ -53,7 +53,7 @@ function setCachedBackground(url: string): void {
 
 // 获取新的随机背景图片
 function fetchNewBackground(): string {
-  return 'https://loliapi.com/acg/';
+  return 'https://loliapi.com/acg';
 }
 
 export function BackgroundProvider({ children }: { children: ReactNode }) {
