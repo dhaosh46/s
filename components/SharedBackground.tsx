@@ -15,6 +15,7 @@ export const SharedBackground = memo(() => {
           className={`w-full h-full object-cover transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
           loading="eager"
           onLoad={setLoaded}
+          crossOrigin="anonymous"
         />
       )}
     </div>
